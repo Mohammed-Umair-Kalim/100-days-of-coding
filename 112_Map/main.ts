@@ -8,10 +8,10 @@
 let map = {
     Pakistan:"Islamabad",
     Turkey:"Istanbul",
-    Palestine:"Gaza",
+    Japan :"Tokyo",
 }
 
-console.log("\n",map.Palestine)
+console.log("\n",map.Japan)
 console.log(map.Pakistan)
 console.log(map.Turkey)
 

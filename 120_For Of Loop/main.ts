@@ -5,6 +5,7 @@
 // and more, making it very readable and easy to use.
 
 // Answer 120:
+
 let movies = ["I'm Legend","I Robot","Fearless Boy","Kung Fu Panda","Karate Kid"]
 
 for(let movie of movies){console.log(movie)}

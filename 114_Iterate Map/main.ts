@@ -4,6 +4,7 @@
 // providing access to each key-value pair
 
 // Answer 114:
+
  let map = new Map <number,string>();
 
  map.set(406009 , "Umair")
