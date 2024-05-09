@@ -1,0 +1,1 @@
+It is an article about programming for beginners

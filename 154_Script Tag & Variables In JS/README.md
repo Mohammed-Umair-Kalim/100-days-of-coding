@@ -1,0 +1,1 @@
+some information about "script" tag & "hello world" in JS (JavaScript)
