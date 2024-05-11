@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data types</title>
+</head>
+<body>
+    <script>
+        // There are 8 kind of data types in JavaScript
+
+        //1)String:
+        let user_name = "Mohammed Umair"
+
+        // 2)Number:
+        let age = 25;
+
+        //3) Boolean 
+        let comparision1 = 4 > 3 //Returns True
+        let comparision2 = 4 < 2 //Returns False 
+        //document.write("String Type:"+" "+user_name , "\nNumber Type:"+" "+age , "\nBoolean Type:"+" "+comparision1 , "\nBoolean:"+" "+comparision2)
+
+        // Undefined:
+        let my_car;
+
+        //Null:
+        let phone_number = null
+
+        //BigInt:
+        let big_number = 9997997997879789787780099797979n
+
+        //Symbol
+        let id = Symbol("id")
+
+        //Object
+        let my_bio = {
+            my_name:"Umair",
+            my_age:25,
+            enrolled_in:"GIAIC"
+        };
+
+        document.write("Undefined Type:"+" "+my_car, "\nNull Type:"+" "+phone_number, "\nBigInt Type:"+" "+big_number)
+
+        document.write("Object Type:"+" "+my_bio.my_name +" "+ my_bio.my_age +" "+ my_bio.enrolled_in)
+
+
+    </script>
+</body>
+</html>
