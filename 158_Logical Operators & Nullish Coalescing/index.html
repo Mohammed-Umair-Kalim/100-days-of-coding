@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Operators</title>
+</head>
+<body>
+    <script>
+    // There are four logical operators in JavaScript, OR || , And && , Not ! , ?? Nullish Coalescing
+    //OR || this operator returns the value when found one true condition, i.e:
+    let user_name = "Mohammed";
+    if(user_name === "Mohammed" || user_name === "Umair"){document.write(user_name)} // This block will executes because one condition is true
+    else {document.write("Invalid Name!")}
+
+    document.write("\n")
+
+    // AND && this operator returns the value whne all the condition are true for example:
+    let my_first_name = "Mohammed";
+    let my_second_name = "Umair";
+    let my_full_name = my_first_name +" "+ my_second_name
+    if(my_first_name === "Mohammed" && my_second_name === "Umair"){document.write(my_full_name)}// This block will run because both are true
+    else{document.write("Error 404!")}
+
+    document.write("\n")
+
+    //Not ! this operator returns the inverse value:
+    let number = 1
+    document.write(!number === 2) //returns false
+
+    </script>
+</body>
+</html>
