@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+</head>
+<body>
+    <script>
+        //Switch Case it works like if-else chain:
+
+        let alpha = "abc";
+        switch(alpha)
+        {
+            case "ABC":document.write("Upper Case ");// This block will be ignored,condition not matched
+            break;
+
+            case "abc": document.write("Lower Case"); // This block will execute because condition is matched
+            break;
+
+            default:document.write("Meow") // If no condition matched, this block will execute like "else"
+        }
+
+    </script>
+</body>
+</html>
