@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function & Function Expression</title>
+</head>
+<body>
+    <script>
+        //Functions:
+        //Function can be declared with function keyword in JS:
+        function food() {document.write("Pizza")} ;
+        food(); // Calling function , it outputs "Pizza"
+
+        document.write("\n");
+
+        //Function with parameters:
+        function sum(a , b) {document.write(a + b)}
+        sum(5 , 5) //outputs 10
+
+        //Function Expression:
+        let menu = function(item1 , item2){
+            document.write(`
+            ${item1}
+            ${item2}
+            `)
+        };
+        menu("Pasta","Tacos"); //Outputs Pasta Tacos
+
+    </script>
+</body>
+</html>
