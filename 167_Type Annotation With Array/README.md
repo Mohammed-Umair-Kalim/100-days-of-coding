@@ -1,0 +1,1 @@
+Type annotation with array in TypeScript
