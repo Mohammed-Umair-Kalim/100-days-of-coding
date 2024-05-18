@@ -1,0 +1,1 @@
+Tuple and destructuring tuple in TypeScript
