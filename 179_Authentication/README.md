@@ -1,0 +1,1 @@
+These articles are about basics of authentication and HTTP basic authentication.
